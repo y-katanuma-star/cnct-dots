@@ -1,0 +1,15 @@
+# Dots Corporate Website - Robots.txt
+# このファイルは検索エンジンのクローラーに指示を与えます
+
+# すべての検索エンジンに対して
+User-agent: *
+
+# すべてのページをクロール許可
+Allow: /
+
+# サイトマップの場所を指定
+Sitemap: https://dots-corporate-site.pages.dev/sitemap.xml
+
+# クロール不要なファイル（もしあれば）
+# 例: Disallow: /test/
+# 例: Disallow: /private/
